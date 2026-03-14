@@ -2,15 +2,44 @@
 title: "Çalışma 2"
 ---
 
-\
-(Aşağıdakiler örnek olarak verilmiştir.)
+#install.packages("dslabs")
+library(dslabs)
+data <- polls_us_election_2016
 
-Bu çalışmada 3 görevimiz var. Bu görevler..... Bunlara sırayla aşağıda cevap arıyoruz.
+my_first <- "furkan"
+my_birth_year <- 1994
 
-## (a)
+k <- (nchar(my_first) + my_birth_year) %%15 + 8
 
-```{r}
-1 + 1
-```
+if (k %% 2 == 0) {
+print(head(data,k))
+} else {
+print(tail(data,k))
+}
 
-## (b)
+cat("Toplam NA sayısı:", sum(is.na(data)), "\n")
+col_na <- colSums(is.na(data))
+print(head(sort(col_na, decreasing = TRUE), 8))
+
+new_data <- data
+num_cols <- sapply(new_data, is.numeric)
+new_data[num_cols] <- lapply(new_data[num_cols], function(x) {
+  x[is.na(x)] <- my_birth_year + k
+  return(x)
+})
+
+char_cols <- sapply(new_data, function(x) is.character(x) || is.factor(x))
+new_data[char_cols] <- lapply(new_data[char_cols], function(x) {
+  x <- as.character(x)
+  x[is.na(x)] <- paste0(my_first, "_", k)
+  return(as.factor(x))
+})
+
+if (k %% 2 == 0) {
+  print(head(new_data, k))
+} else {
+  print(tail(new_data, k))
+}
+
+cat("Yeni veri setindeki toplam NA sayısı:", sum(is.na(new_data)), "\n")
+print(anyNA(new_data))

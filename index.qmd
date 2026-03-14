@@ -2,7 +2,8 @@
 title: "Analitik sayfama hoş geldiniz"
 sidebar: false 
 ---
+Merhabalar adım Furkan ÜNVER
 
 MUY660-İş Analitiği dersi sayfama hoş geldiniz.
 
-Bu analitik çalışmalarımızı paylaşıyorum.
+Derste edindiğim bilgilerin pratik uygulamasını paylaşıyorum.

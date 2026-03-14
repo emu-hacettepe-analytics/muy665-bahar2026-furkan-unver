@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Analitik sayfama hoş geldiniz",
     "section": "",
-    "text": "MUY660-İş Analitiği dersi sayfama hoş geldiniz.\nBu analitik çalışmalarımızı paylaşıyorum.\n\n\n\n Back to top"
+    "text": "MUY660-İş Analitiği dersi sayfama hoş geldiniz.\nBu sayfada analitik çalışmalarımızı paylaşıyorum.\n\n\n\n Back to top"
   },
   {
     "objectID": "teammembers/volkansonmez.html",
@@ -312,7 +312,7 @@
     "href": "portfolyo/calisma2.html",
     "title": "Çalışma 2",
     "section": "",
-    "text": "(Aşağıdakiler örnek olarak verilmiştir.)\nBu çalışmada 3 görevimiz var. Bu görevler….. Bunlara sırayla aşağıda cevap arıyoruz.",
+    "text": "#install.packages(“dslabs”) library(dslabs) data &lt;- polls_us_election_2016\nmy_first &lt;- “furkan” my_birth_year &lt;- 1994\nk &lt;- (nchar(my_first) + my_birth_year) %%15 + 8\nif (k %% 2 == 0) { print(head(data,k)) } else { print(tail(data,k)) }\ncat(“Toplam NA sayısı:”, sum(is.na(data)), “”) col_na &lt;- colSums(is.na(data)) print(head(sort(col_na, decreasing = TRUE), 8))\nnew_data &lt;- data num_cols &lt;- sapply(new_data, is.numeric) new_data[num_cols] &lt;- lapply(new_data[num_cols], function(x) { x[is.na(x)] &lt;- my_birth_year + k return(x) })\nchar_cols &lt;- sapply(new_data, function(x) is.character(x) || is.factor(x)) new_data[char_cols] &lt;- lapply(new_data[char_cols], function(x) { x &lt;- as.character(x) x[is.na(x)] &lt;- paste0(my_first, “_“, k) return(as.factor(x)) })\nif (k %% 2 == 0) { print(head(new_data, k)) } else { print(tail(new_data, k)) }\ncat(“Yeni veri setindeki toplam NA sayısı:”, sum(is.na(new_data)), “”) print(anyNA(new_data))\n\n\n\n Back to top",
     "crumbs": [
       "Çalışma 2"
     ]
@@ -322,7 +322,7 @@
     "href": "portfolyo/calisma1.html",
     "title": "Çalışma 1",
     "section": "",
-    "text": "(Aşağıdakiler örnek olarak verilmiştir.)\nBu çalışmada 3 görevimiz var. Bu görevler….. Bunlara sırayla aşağıda cevap arıyoruz.",
+    "text": "Bu çalışmada 2 görevimiz var. Bu görevler:\n• Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Kerem Demirtaş & Erdi Daşdemir\n• Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Cem Vardar & Erdi Daşdemir\n• Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Mustafa Baydoğan & Erdi Daşdemir\n• Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Baykal Hafızoğlu & Erdi Daşdemir\nBunlara sırayla aşağıda cevap arıyoruz.",
     "crumbs": [
       "Çalışma 1"
     ]
@@ -388,7 +388,7 @@
     "href": "portfolyo/calisma1.html#a",
     "title": "Çalışma 1",
     "section": "(a)",
-    "text": "(a)\n\n1 + 1\n\n[1] 2",
+    "text": "(a)\nVeri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Mustafa Baydoğan & Erdi Daşdemir\nSohbette Sayın Mustafa Gökçe Baydoğan hocamız veri madenciliği, makine öğrenmesi ve optimizasyon gibi teknik konuları;\nOrman endüstrisindeki görüntü işleme prosesleri, elektriklik piyasalarındaki tahmin süreçleri gibi gerçek dünya problemlerindeki girişimcilik tecrübeleri ile harmanlayarak sunmaktadır.\nHocamız iş hayatında açıklanabilirliğin önemini vurgulamakta, geleneksel yöntemler ile derin öğrenme arasındaki farklara değinmektedir.\nÖzetle kurumsal karar alma mekanizmalarında veri analitiğinin stratejik rolü örneklerle çok güzel ifade edilmiştir.",
     "crumbs": [
       "Çalışma 1"
     ]
@@ -418,7 +418,7 @@
     "href": "portfolyo/calisma1.html#b",
     "title": "Çalışma 1",
     "section": "(b)",
-    "text": "(b)",
+    "text": "(b)\n#1\nVeri bilimi projelerinde endüstri mühendislerini bilgisayar mühendislerindenden ayıran temel farklar nelerdir?\nEndüstri mühendislerinin farkı, problemin kök nedenine inerek sistemden bir bütün olarak anlam çıkarma kabiliyeti geliştiriyor olmalarıdır.\nBilgisayar mühendisi bir veriye sadece veri olarak yaklaşırken endüstri mühendisleri problemin altında yatan operasyonel süreci ele alarak derinlemesine çözüm arayışına girer.\n#2\nİş hayatında, özellikle bankacılık gibi regülasyonun yoğun olduğu sektörlerde bir tahminin nedenini (örneğin bir müşteriye neden kredi verilmediğini) açıklayabilmek oldukça önemlidir. Ses ve görüntü gibi yapısal olmayan verilerde çok başarılı olan derin öğrenme modellerinin, geleneksel yöntemlere kıyasla bu konudaki temel dezavantajı nedir?\n\nSadece çok küçük veri setlerinde çalışabilmeleri\nTahmin hatalarının geleneksel yöntemlerden her zaman daha yüksek olması\nÇok fazla parametre içermeleri ve yorumlanabilirliğe oldukça kapalı olmaları\nSadece fizik kurallarının geçerli olduğu problemlerde kullanılabilmeleri\n\nCevap C",
     "crumbs": [
       "Çalışma 1"
     ]
@@ -549,7 +549,7 @@
     "href": "about.html#employements",
     "title": "Hakkımda",
     "section": "Employements",
-    "text": "Employements\n\nFirm xxx, position xx, year xxx\nFirm yyy, position yyy, year yyy"
+    "text": "Employements\n\nFirm BOTAŞ, position Engineer, year 2023 - ongoing"
   },
   {
     "objectID": "about.html#internships",
@@ -564,5 +564,12 @@
     "title": "My Blog",
     "section": "",
     "text": "Bu sayfa yapım aşamasındadır.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Hakkımda",
+    "section": "",
+    "text": "Furkan ÜNVER\n\nCV’ye ulaşmak için: furkan_CV.pdf\n\n\n\n\n\n\n Back to top"
   }
 ]

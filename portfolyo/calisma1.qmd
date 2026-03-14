@@ -2,15 +2,58 @@
 title: "Çalışma 1"
 ---
 
-\
-(Aşağıdakiler örnek olarak verilmiştir.)
 
-Bu çalışmada 3 görevimiz var. Bu görevler..... Bunlara sırayla aşağıda cevap arıyoruz.
+
+Bu çalışmada 2 görevimiz var. Bu görevler:
+
+a. Aşağıdaki kaynaklardan bir video seçin ve Quarto dokümanınızda kısa bir özetini sunun:
+
+• [Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Kerem Demirtaş & Erdi Daşdemir](https://www.youtube.com/watch?v=cUPtQEyaswM)
+
+• [Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Cem Vardar & Erdi Daşdemir](https://www.youtube.com/watch?v=Fi8-phj1X1A)
+
+• [Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Mustafa Baydoğan & Erdi Daşdemir](https://www.youtube.com/watch?v=1Mvkn71dhaA)
+
+• [Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Baykal Hafızoğlu & Erdi Daşdemir](https://www.youtube.com/watch?v=tV_0pHSdLAM)
+
+b. Seçtiğiniz videodan, cevaplarıyla birlikte bir açık uçlu soru ve bir çoktan seçmeli soru hazırlayın. 
+
+Bunlara sırayla aşağıda cevap arıyoruz.
 
 ## (a)
 
-```{r}
-1 + 1
-```
+Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Mustafa Baydoğan & Erdi Daşdemir
+
+Sohbette Sayın Mustafa Gökçe Baydoğan hocamız veri madenciliği, makine öğrenmesi ve optimizasyon gibi teknik konuları;
+
+Orman endüstrisindeki görüntü işleme prosesleri, elektriklik piyasalarındaki tahmin süreçleri gibi gerçek dünya problemlerindeki girişimcilik tecrübeleri ile harmanlayarak sunmaktadır. 
+
+Hocamız iş hayatında açıklanabilirliğin önemini vurgulamakta, geleneksel yöntemler ile derin öğrenme arasındaki farklara değinmektedir.
+
+Özetle kurumsal karar alma mekanizmalarında veri analitiğinin stratejik rolü örneklerle çok güzel ifade edilmiştir.
 
 ## (b)
+
+#1
+
+Veri bilimi projelerinde endüstri mühendislerini  bilgisayar mühendislerindenden ayıran temel farklar nelerdir?
+
+Endüstri mühendislerinin farkı, problemin kök nedenine inerek sistemden bir bütün olarak anlam çıkarma kabiliyeti geliştiriyor olmalarıdır.
+
+Bilgisayar mühendisi bir veriye sadece veri olarak yaklaşırken endüstri mühendisleri problemin altında yatan operasyonel süreci ele alarak derinlemesine çözüm arayışına girer.
+
+
+#2
+
+İş hayatında, özellikle bankacılık gibi regülasyonun yoğun olduğu sektörlerde bir tahminin nedenini (örneğin bir müşteriye neden kredi verilmediğini) açıklayabilmek oldukça önemlidir. Ses ve görüntü gibi yapısal olmayan verilerde çok başarılı olan derin öğrenme modellerinin, geleneksel yöntemlere kıyasla bu konudaki temel dezavantajı nedir?
+
+A) Sadece çok küçük veri setlerinde çalışabilmeleri
+
+B) Tahmin hatalarının geleneksel yöntemlerden her zaman daha yüksek olması
+
+C) Çok fazla parametre içermeleri ve yorumlanabilirliğe oldukça kapalı olmaları
+
+D) Sadece fizik kurallarının geçerli olduğu problemlerde kullanılabilmeleri
+
+Cevap C
+
